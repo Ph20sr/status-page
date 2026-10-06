@@ -17,7 +17,15 @@ test('checkSite: status esperado, erro HTTP e timeout', async () => {
   assert.equal(down.error, 'HTTP 502');
   assert.equal((await checkSite({ name: 'api', url: 'x', expect: [401] }, { fetch: fake(401) })).ok, true, 'API que exige token');
 
-  const slow = (url, { signal }) => new Promise((_, reject) => signal.addEventListener('abort', () => reject(signal.reason)));
+  // AbortSignal.timeout usa um timer "unref": sem um fetch real segurando o
+  // processo, o Node poderia encerrar antes do timeout. Este timer o mantém vivo.
+  const slow = (url, { signal }) => new Promise((_, reject) => {
+    const keepAlive = setTimeout(() => {}, 5000);
+    signal.addEventListener('abort', () => {
+      clearTimeout(keepAlive);
+      reject(signal.reason);
+    });
+  });
   const timeout = await checkSite({ name: 'a', url: 'x', timeoutMs: 20 }, { fetch: slow });
   assert.equal(timeout.ok, false);
   assert.equal(timeout.error, 'sem resposta em 0.02s');
