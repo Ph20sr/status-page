@@ -1,0 +1,90 @@
+{
+ "updatedAt": 1791298775213,
+ "sites": {
+  "Site Vynex": {
+   "days": {
+    "2026-10-06": {
+     "checks": 2,
+     "up": 2,
+     "totalMs": 475
+    }
+   },
+   "last": {
+    "ok": true,
+    "status": 200,
+    "ms": 200,
+    "at": 1791298775127,
+    "error": null
+   },
+   "incidents": []
+  },
+  "Asaas API": {
+   "days": {
+    "2026-10-06": {
+     "checks": 2,
+     "up": 2,
+     "totalMs": 1999
+    }
+   },
+   "last": {
+    "ok": true,
+    "status": 401,
+    "ms": 112,
+    "at": 1791298775208,
+    "error": null
+   },
+   "incidents": []
+  },
+  "WhatsApp Cloud API": {
+   "days": {
+    "2026-10-06": {
+     "checks": 2,
+     "up": 2,
+     "totalMs": 511
+    }
+   },
+   "last": {
+    "ok": true,
+    "status": 400,
+    "ms": 216,
+    "at": 1791298775210,
+    "error": null
+   },
+   "incidents": []
+  },
+  "ViaCEP": {
+   "days": {
+    "2026-10-06": {
+     "checks": 2,
+     "up": 2,
+     "totalMs": 1043
+    }
+   },
+   "last": {
+    "ok": true,
+    "status": 200,
+    "ms": 483,
+    "at": 1791298775212,
+    "error": null
+   },
+   "incidents": []
+  },
+  "BrasilAPI": {
+   "days": {
+    "2026-10-06": {
+     "checks": 2,
+     "up": 2,
+     "totalMs": 1856
+    }
+   },
+   "last": {
+    "ok": true,
+    "status": 200,
+    "ms": 143,
+    "at": 1791298775213,
+    "error": null
+   },
+   "incidents": []
+  }
+ }
+}

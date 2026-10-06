@@ -1,0 +1,13 @@
+{
+  "name": "status-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Página de status com histórico de 90 dias e incidentes, rodando 100% no GitHub Actions + GitHub Pages. Zero dependências.",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/run.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}

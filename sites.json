@@ -1,0 +1,11 @@
+{
+  "title": "Status · Vynex Systems",
+  "description": "Disponibilidade do site e das APIs de que nossos sistemas dependem.",
+  "sites": [
+    { "name": "Site Vynex", "url": "https://vynex-systen.com.br" },
+    { "name": "Asaas API", "url": "https://api.asaas.com/v3/customers", "expect": [401] },
+    { "name": "WhatsApp Cloud API", "url": "https://graph.facebook.com/v23.0/me", "expect": [400, 401] },
+    { "name": "ViaCEP", "url": "https://viacep.com.br/ws/01310100/json/" },
+    { "name": "BrasilAPI", "url": "https://brasilapi.com.br/api/cep/v1/01310100" }
+  ]
+}
