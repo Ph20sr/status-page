@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792922253986,
+ "updatedAt": 1792937136489,
  "sites": {
   "Site Vynex": {
    "days": {
@@ -99,16 +99,16 @@
      "totalMs": 8045
     },
     "2026-10-25": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 2875
+     "checks": 4,
+     "up": 4,
+     "totalMs": 3600
     }
    },
    "last": {
     "ok": true,
     "status": 200,
-    "ms": 807,
-    "at": 1792922253853,
+    "ms": 725,
+    "at": 1792937136437,
     "error": null
    },
    "incidents": []
@@ -211,16 +211,16 @@
      "totalMs": 873
     },
     "2026-10-25": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 403
+     "checks": 4,
+     "up": 4,
+     "totalMs": 478
     }
    },
    "last": {
     "ok": true,
     "status": 401,
-    "ms": 159,
-    "at": 1792922253982,
+    "ms": 75,
+    "at": 1792937136486,
     "error": null
    },
    "incidents": []
@@ -323,16 +323,16 @@
      "totalMs": 1487
     },
     "2026-10-25": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 655
+     "checks": 4,
+     "up": 4,
+     "totalMs": 759
     }
    },
    "last": {
     "ok": true,
     "status": 400,
-    "ms": 170,
-    "at": 1792922253983,
+    "ms": 104,
+    "at": 1792937136487,
     "error": null
    },
    "incidents": [
@@ -441,22 +441,22 @@
      "totalMs": 4216
     },
     "2026-10-25": {
-     "checks": 3,
-     "up": 2,
-     "totalMs": 1321
+     "checks": 4,
+     "up": 3,
+     "totalMs": 1660
     }
    },
    "last": {
-    "ok": false,
-    "status": null,
-    "ms": 768,
-    "at": 1792922253984,
-    "error": "ETIMEDOUT"
+    "ok": true,
+    "status": 200,
+    "ms": 339,
+    "at": 1792937136488,
+    "error": null
    },
    "incidents": [
     {
      "start": 1792922253984,
-     "end": null,
+     "end": 1792937136488,
      "error": "ETIMEDOUT"
     }
    ]
@@ -559,16 +559,16 @@
      "totalMs": 4868
     },
     "2026-10-25": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 1943
+     "checks": 4,
+     "up": 4,
+     "totalMs": 2415
     }
    },
    "last": {
     "ok": true,
     "status": 200,
-    "ms": 487,
-    "at": 1792922253986,
+    "ms": 472,
+    "at": 1792937136489,
     "error": null
    },
    "incidents": []
