@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793546523474,
+ "updatedAt": 1793562589775,
  "sites": {
   "Site Vynex": {
    "days": {
@@ -134,16 +134,16 @@
      "totalMs": 4195
     },
     "2026-11-01": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 2965
+     "checks": 4,
+     "up": 4,
+     "totalMs": 3845
     }
    },
    "last": {
     "ok": true,
     "status": 200,
-    "ms": 996,
-    "at": 1793546523422,
+    "ms": 880,
+    "at": 1793562589726,
     "error": null
    },
    "incidents": []
@@ -281,16 +281,16 @@
      "totalMs": 520
     },
     "2026-11-01": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 323
+     "checks": 4,
+     "up": 4,
+     "totalMs": 398
     }
    },
    "last": {
     "ok": true,
     "status": 401,
-    "ms": 136,
-    "at": 1793546523470,
+    "ms": 75,
+    "at": 1793562589771,
     "error": null
    },
    "incidents": []
@@ -428,16 +428,16 @@
      "totalMs": 759
     },
     "2026-11-01": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 508
+     "checks": 4,
+     "up": 4,
+     "totalMs": 609
     }
    },
    "last": {
     "ok": true,
     "status": 400,
-    "ms": 236,
-    "at": 1793546523472,
+    "ms": 101,
+    "at": 1793562589772,
     "error": null
    },
    "incidents": [
@@ -581,16 +581,16 @@
      "totalMs": 2278
     },
     "2026-11-01": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 2001
+     "checks": 4,
+     "up": 4,
+     "totalMs": 2410
     }
    },
    "last": {
     "ok": true,
     "status": 200,
-    "ms": 832,
-    "at": 1793546523473,
+    "ms": 409,
+    "at": 1793562589774,
     "error": null
    },
    "incidents": [
@@ -734,16 +734,16 @@
      "totalMs": 2865
     },
     "2026-11-01": {
-     "checks": 3,
-     "up": 3,
-     "totalMs": 2149
+     "checks": 4,
+     "up": 4,
+     "totalMs": 2680
     }
    },
    "last": {
     "ok": true,
     "status": 200,
-    "ms": 800,
-    "at": 1793546523474,
+    "ms": 531,
+    "at": 1793562589775,
     "error": null
    },
    "incidents": []
